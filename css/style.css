@@ -287,7 +287,6 @@ body {
   background: rgba(104, 102, 102, 0.99);
 }
 
-
 .post-img {
   width: 442px;
   height: 550px;
@@ -343,6 +342,119 @@ body {
   font-size: 36px;
   line-height: 150%;
   color: #ffffff;
+}
+
+/* Partner */
+
+.partners {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 78px;
+  flex-wrap: wrap;
+}
+
+.partner {
+  width: 200px;
+}
+.partner-img {
+  width: 100%;
+}
+
+/* Contact */
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.contact-numbers {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 260px;
+  margin-right: 125px;
+}
+
+.c-number {
+  margin-bottom: 25px;
+}
+
+.mb {
+  margin-bottom: 25px;
+}
+
+.c-inputs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.c-inputs {
+  width: 389px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-right: 30px;
+}
+.c-input {
+  width: 40%;
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #616161;
+  background-color: #444444;
+  outline: unset;
+  color: #989898;
+  padding: 10px 15px;
+}
+
+.c-textarea-wr {
+  width: 310px;
+}
+.c-textarea {
+  width: 310px;
+  height: 103px;
+  border: 1px solid #616161;
+  background-color: #444444;
+  outline: unset;
+  color: #989898;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: 600;
+  resize: none;
+}
+.c-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.c-info-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  width: 300px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid #565656;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
 }
 
 /* Media */
@@ -412,21 +524,73 @@ body {
   /* Posts */
   .posts {
     padding-top: 60px;
+    padding-bottom: 0px;
   }
 
   /* Star */
 
-  .star-content-wrapper {
-    padding: 126px 0px 126px 0px;
+  .star {
+    padding: 80px 0;
   }
+
+  .star-content-wrapper {
+    padding: 126px 0px 126px 33px;
+    margin-left: -33px;
+  }
+
   .years {
     margin-right: 25px;
   }
+
   .star-icon {
     width: 22px;
     height: 22px;
   }
+
   .star-text {
     font-size: 25px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  /* Contact */
+
+  .contact {
+    flex-direction: column-reverse;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .c-inputs {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .c-textarea-wr {
+    width: 100%;
+  }
+  .c-textarea {
+    width: 100%;
+  }
+  .c-info-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .c-info-text {
+    width: 80%;
+    text-align: center;
+  }
+  .hero-btn {
+    margin-bottom: 30px;
+  }
+  .contact-numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-text {
+    text-align: right;
   }
 }

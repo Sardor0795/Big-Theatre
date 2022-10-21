@@ -172,6 +172,11 @@ body {
   padding: 15px 47px;
   border: unset;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #d1aa54b9;
 }
 
 .hero-img-wrapper {

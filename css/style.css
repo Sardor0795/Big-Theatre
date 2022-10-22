@@ -76,7 +76,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 140px;
+  margin-bottom: 135px;
 }
 
 .nav__list {
@@ -95,17 +95,14 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   transition: color 0.3s ease;
-}
-
-.nav__link:hover {
-  color: #d1a954;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
 }
 
 .number {
   border: unset;
   outline: unset;
   background: transparent;
-  border-bottom: 2px solid #d1a954;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -115,6 +112,12 @@ body {
   color: #ffffff;
   max-width: 140px;
   padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav__link:hover,
+.number:hover {
+  border-color: #d1a954;
 }
 
 .menu-btn {
@@ -381,13 +384,17 @@ body {
   line-height: 22px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #ffffff;
   width: 260px;
   margin-right: 125px;
 }
 
 .c-number {
   margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.c-text {
+  color: #ffffff;
 }
 
 .mb {

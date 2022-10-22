@@ -543,11 +543,13 @@ body {
 
   .star {
     padding: 80px 0;
+    width: 100vw;
   }
 
   .star-content-wrapper {
     padding: 126px 0px 126px 33px;
     margin-left: -33px;
+    margin-right: -33px;
   }
 
   .years {
